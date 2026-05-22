@@ -112,3 +112,21 @@ li::before {
 header {
     text-align: center;
 }
+
+/* Estilo para el enlace de descarga */
+.descargar-cv {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4cc9f0; /* Azul eléctrico para que destaque */
+    color: #1a1a2e;            /* Texto oscuro para buen contraste */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.descargar-cv:hover {
+    background-color: #ffffff;
+    color: #1a1a2e;
+}
