@@ -90,3 +90,25 @@ li::before {
     position: absolute;
     left: 0;
 }
+
+/* El contenedor padre es el que debe tener flex para centrar a su hijo (la imagen) */
+.foto-perfil {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    margin: 20px 0;
+}
+
+/* La imagen solo necesita sus dimensiones y el borde circular */
+.foto-perfil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-position: 50% 5%;
+    object-fit: cover;
+    border: 4px solid #4cc9f0;
+}
+
+header {
+    text-align: center;
+}
